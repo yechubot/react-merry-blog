@@ -43,6 +43,8 @@ a:hover{
   padding:10px 15px;
   margin: 10px 0;
   border-bottom: 1px solid #fafafa;
+  transition: 0.3s ease;
+  cursor: pointer;
 }
 .blog-preview:hover{
   box-shadow: 1px 3px 5px rgba(0, 0, 0, 0.1);
@@ -51,4 +53,23 @@ a:hover{
   font-size:20px;
   color:lightpink;
   margin-bottom:8px;
+}
+.go-github{
+  text-align: center;
+}
+.go-github button{
+  background-color: lightpink;
+  color:#333;
+  border-radius: 1.2em;
+  font-weight: 600;
+  border-style: none;
+  padding:10px 15px;
+  margin-top:30px;
+  outline: none;
+  box-shadow: 1px 3px 5px rgb(184, 119, 129);
+  transition: 0.3s ease;
+}
+.go-github button:hover{
+  cursor: pointer;
+  box-shadow: 1px 5px 8px rgb(184, 119, 129);
 }

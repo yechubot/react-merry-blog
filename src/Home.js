@@ -14,6 +14,9 @@ const Home = () => {
                     <p>Written by {blog.author}</p>
                 </div>
             ))}
+            <div className="go-github">
+                <button href="/">Go to yeeun's github </button>
+            </div>
         </div>
     )
 }
