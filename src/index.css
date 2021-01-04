@@ -25,6 +25,7 @@ color:rgb(189, 187, 187);
   text-decoration: none;
   margin-left:10px;
   padding:5px;
+  transition: 0.8s ease;
 }
 a:hover{
   color:lightseagreen;
